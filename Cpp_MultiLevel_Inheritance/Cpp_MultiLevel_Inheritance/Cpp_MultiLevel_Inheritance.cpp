@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Cpp_Inheritance.cpp"
 
 using namespace std;
 
@@ -59,6 +60,11 @@ int main()
 	cout << hero.GetOccupation() << endl;
 	cout << hero.GetSecretIdentity() << endl;
 	cout << hero.GetNemesis() << endl;
+
+	Line l(5);
+	Box box(5, 5);
+	box.DrawLine();
+	box.DrawBox();
 
 	return 0;
 }
